@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>y</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>y</title>
+  <link rel="stylesheet" href="./screen.css">
+</head>
+
+<body>
+  <header>ROCK * PAPER * SCISSORS</header>
+  <section class="players">
+    <section class="first-player">
+      <section class="player-one">PLAYER 1
+        <section class="player1-choices">
+          <button onclick="rock1()">ROCK</button>
+          <button onclick="paper1()">PAPER</button>
+          <button onclick="scissors1()">SCISSORS</button>
+        </section>
+      </section>
+    </section>
+    <section class="second-player">
+      <section class="player-two">PLAYER 2
+        <section class="player2-choices">
+          <button onclick="rock2()">ROCK</button>
+          <button onclick="paper2()">PAPER</button>
+          <button onclick="scissors2()">SCISSCORS</button>
+        </section>
+      </section>
+    </section>
+  </section>
+
+
+
+  <section class="computer-player">
+    <button class="computer-button" onclick="computer()"> PLAY the COMPUTER</button>
+  </section>
+
+  <ul id="results">Results:
+  </ul>
+
+  <script src="./main.js" charset="utf-8"></script>
+</body>
+
 </html>
